@@ -2,7 +2,7 @@
 $keyId = 'rzp_test_xxxx';
 $keySecret = 'xxxxxx';
 $displayCurrency = 'INR';
-$link = mysqli_connect('localhost', 'roo', '', 'test');
+$link = mysqli_connect('localhost', 'root', '', 'test');
 if (!$link) {
     die('Could not connect: ' . mysql_error());
 }
